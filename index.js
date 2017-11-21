@@ -22,9 +22,11 @@ module.exports = function validate(schema, options) {
 
         function onValidationComplete(err, validated) {
             if (err) {
-                console.log(err.message, err.details);
-                console.log(Boom.badRequest(err.message));
-                return next(Boom.badRequest(err.message, err.details));
+                return res.status(400).send({
+                    statusCode:'400',
+                    error:'bad request',
+                    message:err.message
+                });
             }
 
             // copy the validated data to the req object
