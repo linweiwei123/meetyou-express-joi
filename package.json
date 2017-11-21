@@ -1,0 +1,30 @@
+{
+  "name": "meetyou-express-joi",
+  "version": "1.0.0",
+  "description": "meetyou express joi middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linweiwei123/meetyou-express-joi.git"
+  },
+  "keywords": [
+    "meetyou",
+    "express",
+    "joi",
+    "middleware"
+  ],
+  "author": "linweiwei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/linweiwei123/meetyou-express-joi/issues"
+  },
+  "homepage": "https://github.com/linweiwei123/meetyou-express-joi#readme",
+  "dependencies": {
+    "boom": "^7.1.1",
+    "extend": "^3.0.1",
+    "joi": "^13.0.2"
+  }
+}
